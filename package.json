@@ -1,0 +1,38 @@
+{
+  "name": "homecontrol.js",
+  "version": "1.0.0",
+  "description": "JavaScript API for HomeControl",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -c rollup.config.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lennart-k/HomeControl.js.git"
+  },
+  "keywords": [
+    "home-automation",
+    "HomeControl",
+    "iot",
+    "api"
+  ],
+  "author": "Lennart K",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lennart-k/HomeControl.js/issues"
+  },
+  "homepage": "https://github.com/lennart-k/HomeControl.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "eslint": "^6.2.2",
+    "rollup": "^1.20.2",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
+}
